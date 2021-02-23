@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: #bad0d4;
+}
+.contain {
+  height: 100%;
+}
+header, footer {
+  background: #aaa;
+  height: 80px;
+  position: relative;
+}
+header {
+  box-shadow: 0 1px 10px #000000b0;
+}
+footer {
+  box-shadow: 0 -1px 10px #000000b0;
+}
+.main {
+  flex: 1;
+  overflow: auto;
+}
+
+
+
+.wrap {
+  width: 80%;
+  max-width: 400px;
+  margin: 50px auto;
+  height: 80%;
+  max-height: 300px;
+  overflow: auto;
+  box-shadow: 0 1px 10px #000000b0;
+  background: #aaa;
+  padding: 20px;
+}
+.imgStyle {
+  display: block;
+  box-shadow: 0 1px 10px #000000b0;
+  +.imgStyle {
+    margin: 10px 0;
+  }
+}
